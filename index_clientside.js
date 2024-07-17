@@ -1,4 +1,4 @@
-const data = [];
+let data = [];
 for (let i = 0; i < 2_000_000; i++) {
   data.push({ product_id: i, product_title: `Product #${i}` });
 }
